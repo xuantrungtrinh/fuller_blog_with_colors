@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html style="margin:0px 0px 0px 0px">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trung</title>
+  <script src="https://kit.fontawesome.com/1e9b47eda9.js" crossorigin="anonymous"></script>
+  <link href="http://cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+	  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+ <style>
+    .checkoutmyultimateguide {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 22px; 
+        margin: 0px auto 0px auto; 
+        padding: 0px 0 20px 0;
+        /* text-align: center; */
+  }
+
+    .action {
+    position: absolute;
+    top: 80px;
+    right: 5px;
+  }
+  
+  .action .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .action .menu {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+    padding: 10px 20px;
+    background: #fff;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .action .menu.active {
+    top: 80px;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .action .menu::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+  }
+  
+  .action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.5em;
+  }
+  
+  .action .menu h3 span {
+    font-size: 14px;
+    color: #cecece;
+    font-weight: 300;
+  }
+  
+  .action .menu ul li {
+    list-style: none;
+    padding: 16px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+  }
+  
+  .action .menu ul li img {
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  
+  .action .menu ul li:hover img {
+    opacity: 1;
+  }
+  
+  .action .menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  
+  .action .menu ul li:hover a {
+    color: #ff5d94;
+  }
+  
+    </style>
+</head>
+
+  <!-- <script>
+    $(document).ready(function(){
+        $("#ModalForm").modal('show');
+    });
+</script> -->
+  
+
+
+<body style="background-color:#1B1A17">
+<div id="fjakdfl">
+  <section id="title1">
+
+<div class="container-fluid" id="phandau">
+
+    <!-- Nav Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+     <a style="color: skyblue" class="navbar-brand" href="">Trung</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ms-auto" id="contactpricingdownload">
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+        </li> -->
+        <li class="nav-item">
+            <a style="color:skyblue; font-weight:bolder;" class="nav-link" href="booknotes VIET.html">Tài liệu</a>
+        </li>
+        <li class="nav-item">
+            <!-- <a style="color:#EEEEEE;" class="nav-link" href="">Chuyển sang tiếng Anh</a> -->
+            <div class="navbar1">
+              <div class="dropdown">
+              <button style="" class="dropbtn" onclick="myFunction()">Ngôn ngữ ▾
+                <i class="fa"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="index.html">Tiếng Việt</a>
+                <a href="index ENG.html">Tiếng Anh</a>
+              </div>
+              </div> 
+            </div>
+        </li>
+    </ul>
+    </div>
+    
+</nav>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
+
+<!-- <div class="">
+<div class="action">
+  <div class="profile" onclick="menuToggle();" style="width: 90px; height: 90px;">
+    <img src="images/lady-img.jpg"/>
+  </div>
+  <div class="menu">
+    <h3>Someone Famous<br /><span>Website Designer</span></h3>
+    <ul style="padding-left: 10px">
+      <li>
+        <img src="images/dropdownicons/icon-user.png" /><a href="#">My profile</a>
+      </li>
+      <li>
+        <img src="images/dropdownicons/bfqb-edit.png" /><a href="#">Edit profile</a>
+      </li>
+      <li>
+        <img src="images/dropdownicons/aouY-envelope.png" /><a href="#">Inbox</a>
+      </li>
+      <li>
+        <img src="images/dropdownicons/aHaP-settings.png" /><a href="#">Setting</a>
+      </li>
+      <li><img src="images/dropdownicons/TKUG-question.png" /><a href="#">Help</a></li>
+      <li>
+        <img src="images/dropdownicons/hROo-log-out.png" /><a href="#">Logout</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<p style="position: absolute; top: 100px; right: 100px; color: white; font-size: 1.5rem;"> hi!!</p>
+</div>
+<script>
+  function menuToggle() {
+    const toggleMenu = document.querySelector(".menu");
+    toggleMenu.classList.toggle("active");
+  }
+</script> -->
+
+    <!-- Title -->
+<div class= "phangioithieuvadangky">
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+      <h1 style="color:lightblue; font-weight: normal;">Trung trong vòng 10 giây</h1>
+
+    </div>
+    <!-- <div class="col-lg-6"> -->
+
+        
+      <!-- Sign-up POP-UP button BEGINS -->
+<!-- <div class="optinbuttonssignedout">
+      <div class="row justify-content-center">
+
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalForm" style="font-size:1.5rem; padding: 20px 0; width: 50%;"><i class="fa-brands fa-apple"></i>  Tạo tài khoản
+      </button>
+      <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="myform bg-dark">
+                    <h1 class="text-center">Login Form</h1>
+                    <form>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-light mt-3">LOGIN</button>
+                        <p>Not a member? <a href="#">Signup now</a></p>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+<hr style="margin: 1rem auto;">
+      <div class="row justify-content-center">
+
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalForm" style="font-size:1.5rem; padding: 20px 0; width: 50%;"><i class="fa-brands fa-google-play"></i>  Đăng kí với Google
+      </button>
+      <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="myform bg-dark">
+                    <h1 class="text-center">Login Form</h1>
+                    <form>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-light mt-3">LOGIN</button>
+                        <p>Not a member? <a href="#">Signup now</a></p>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="row justify-content-center">
+<p style="color: white; font-weight:bold; margin: 4rem auto 1rem auto;; text-align:center; font-size: 200%;"> Đã có tài khoản rồi ư? </p>
+        <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#ModalForm" style="font-size:1.25rem; padding: 20px 0; width: 50%; color: blue; font-weight: bold;;">
+  
+          Đăng nhập
+  
+        </button>
+        <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="myform bg-dark">
+                      <h1 class="text-center">Login Form</h1>
+                      <form>
+                          <div class="mb-3 mt-4">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <button type="submit" class="btn btn-light mt-3">LOGIN</button>
+                          <p>Not a member? <a href="#">Signup now</a></p>
+                      </form>
+                  </div>
+              </div> 
+             </div>
+          </div>
+        </div>
+        </div>
+        
+</div> -->
+
+</div>
+            <!-- Sign-up POP-UP button ENDS -->
+        
+    </div>
+</div>
+
+</div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section style="background-color:#1B1A17" id="features">
+
+    <div class= "container-fluid phangioithieuvadangky">
+      <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h1 style="color:lightblue; font-weight:normal;">Trung trong vòng 10 phút?</h1>
+      
+          </div>
+      </div>
+    </div>
+    <div class= "container-fluid phangioithieuvadangky">
+      <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h1><a style="color:skyblue" href="Contact me VIET.html">Thông tin liên lạc</a></h1>
+      
+          </div>
+      </div>
+    </div>
+  <!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4" style="text-align: center; margin: 30px auto 30px auto;">
+    <i class="icon fa-solid fa-circle-check"></i>
+    <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem 0 1.5rem 0;">Easy to use.</h3>
+    <p style="color: #8f8f8f;  width: 50%;  line-height: 1.5rem; margin: 0 25% 0 25%;">So easy to use, even your dog could do it.</p>
+    </div>  
+    <div class=col-lg-4 style="text-align: center; margin: 30px auto 30px auto;">
+    <i class="icon fa-solid fa-bullseye"></i>
+    <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem auto 1.5rem auto;">Elite Clientele</h3>
+    <p style="color: #8f8f8f; width: 50%; text-align: center; line-height: 1.5rem; margin: 0 25% 0 25%;">We have all the dogs, the greatest dogs.</p>
+    </div>
+    <div class=col-lg-4 style="text-align: center; margin: 30px auto 50px auto;">
+    <i class="icon fa-solid fa-heart"></i>
+    <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem auto 1.5rem auto;">Guaranteed to work.</h3>
+    <p style="color: #8f8f8f; width: 50%; text-align: center; line-height: 1.5rem; margin: 0 25% 0 25%;">Find the love of your dog's life or your money back.</p>
+    </div>
+</div>
+</div> -->
+
+  </section>
+<!-- <div class="container-fluid" style="background-color:#1B1A17">
+  <div class="row justify-content-center"><img src="images/iphone6.png" alt="iphone-mockup" class="imagecanchinh" style="width:200px;"></div>
+</div> -->
+
+
+
+
+
+  <!-- <section style="background-color:#1B1A17" id="features">
+
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4" style="text-align: center; margin: 30px auto 30px auto;">
+      <i class="icon fa-solid fa-circle-check"></i>
+      <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem 0 1.5rem 0;">Easy to use.</h3>
+      <p style="color: #8f8f8f;  width: 50%;  line-height: 1.5rem; margin: 0 25% 0 25%;">So easy to use, even your dog could do it.</p>
+      </div>  
+      <div class=col-lg-4 style="text-align: center; margin: 30px auto 30px auto;">
+      <i class="icon fa-solid fa-bullseye"></i>
+      <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem auto 1.5rem auto;">Elite Clientele</h3>
+      <p style="color: #8f8f8f; width: 50%; text-align: center; line-height: 1.5rem; margin: 0 25% 0 25%;">We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class=col-lg-4 style="text-align: center; margin: 30px auto 50px auto;">
+      <i class="icon fa-solid fa-heart"></i>
+      <h3 style="font-family: Montserrat; font-weight:bold; margin: 1.5rem auto 1.5rem auto;">Guaranteed to work.</h3>
+      <p style="color: #8f8f8f; width: 50%; text-align: center; line-height: 1.5rem; margin: 0 25% 0 25%;">Find the love of your dog's life or your money back.</p>
+      </div>
+  </div>
+  </div>
+  
+    </section> -->
+
+
+    <div class="checkoutmyultimateguide container-fluid" style="text-align: center; background-color:#1B1A17; color: white; padding-bottom: 0px;">Những thứ Linh Tinh của mình</div>
+    <!-- <div class="home__arrow" style="text-align: center; background-color:#1B1A17"> 
+      <svg width="57" height="61" viewBox="0 0 57 61" fill="none" xmlns="https://www.w3.org/2000/svg"> 
+          <g clip-path="url(#clip0)"> 
+              <path d="M27.24 59.656c3.056-4.048 6.993-7.064 11.733-8.884 1.044-.403.601-2.019-.494-1.686a27.466 27.466 0 00-7.22 3.363c4.386-6.307 6.793-13.976 7.43-21.601.826-9.907-1.403-22-8.078-29.72-.977-1.136-3.166.194-2.558 1.583C30 7.16 32.27 11.285 33.525 16.038c1.242 4.705 1.793 9.525 1.53 14.385-.434 8.056-3.296 15.458-7.17 22.389-.355-2.259-1.235-4.428-2.668-6.287-1.3-1.681-4.121-.045-2.869 1.776 2.13 3.113 3.128 6.322 2.577 10.122-.167 1.186 1.416 2.426 2.317 1.233z" fill="#333" fill-opacity=".85"></path> 
+          </g>                         
+          <defs> 
+              <clipPath id="clip0"> 
+                  <path transform="rotate(148.25 56.2 41.845)" fill="#fff" d="M56.2 41.845h35.638v49.209H56.2z"></path> 
+              </clipPath>                             
+          </defs>                         
+      </svg>                     
+  </div> -->
+  <h1 style="color:white; text-align: center; font-size:400%; margin:0px; transform:rotate(-20deg)">⤸</h1>
+
+  <!-- <h1 style="color:white; text-align: center; font-size:400%; margin:0px; transform:rotate(-20deg);">⤹</h1> -->
+
+<div class="container-fluid" style="background-color:#1B1A17; padding-top: 20px;padding-bottom: 0px;">
+
+    <div class="row justify-content-center" style="margin: auto auto 40px auto;">
+    <div class="rectangle1 col-lg-4" style="width:500px;height:300px;border:3px solid #ECF2FF; border-radius: 2%; margin: 0px 40px; box-shadow: 8.5px 8.5px 3.5px #E4DCCF; text-align: center; justify-content: center; color:skyblue; font-size: 150%;">Tóm tắt sách hay</div>
+</div>
+  <div class="row justify-content-center">
+
+    <div class="rectangle1 col-lg-4" style="width:450px;height:250px;border:3px solid #ECF2FF; border-radius: 2%; margin: 0px 40px; box-shadow: 8.5px 8.5px 3.5px #ECF2FF; text-align: center; color:skyblue; font-size: 150%;">Các dự án đang chạy</div>
+
+    <div class="rectangle2 col-lg-4" style="width:450px;height:250px;border:3px solid #ECF2FF; border-radius: 2%; margin: 0px 40px; box-shadow: 8.5px 8.5px 3.5px #ECF2FF; text-align: center; color:skyblue; font-size: 150%;">Bài blog được viết mới nhất</div>
+
+  </div>
+
+</div>
+
+  <!-- Jointhenewsletter -->
+
+<section style="background-color:#1B1A17" id="features">
+
+    <div  class="container" id="Jointhenewsletter">
+    <div class="row" style="text-align: center; margin: 30px auto 30px auto;">
+      <div class="col-lg-6" style="text-align: center; margin: auto auto 30px auto;">
+  
+      <h3 style="font-family: Montserrat; font-weight:bold; font-size: 360%; margin: 1.5rem 0 1.5rem 0; color: skyblue;">Đăng Ký Newsletter!</h3>
+      <p style="color: #EEEEEE;  line-height: 2rem; font-size: 160%;">Để nhận được bản tin và những cập nhật mới nhất</p>
+      </div>  
+      <div class= "col-lg-6">
+        <div class="row justify-content-left">
+          <div style="background-color:#1B1A17" id="mc_embed_signup">
+              <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w-100 rounded-1 p-4 border bg-#1B1A17" target="_blank">
+  
+          <div class="mc-field-group">
+            <label style="color:skyblue;" for="mce-EMAIL">Email Address:  
+  
+          </label>
+            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" required>
+            <span id="mce-EMAIL-HELPERTEXT" class="helper_text" style="background-color:#1B1A17"></span>
+          </div>
+            <div id="mce-responses" class="clear foot">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>   
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_62566f4c9a2dec6fe11ae8ecf_7730a50033" tabindex="-1" value=""></div>
+                  <div class="optionalParent">
+                      <div class="clear foot">
+                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#E21818; width:">
+                      </div>
+                  </div>
+              </div>
+          </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          </div>
+          
+      </div>
+   
+  </div>
+  
+  </div>
+
+    </section>
+
+  </body>
+
+
+
+
+<!------------FOOTER BEGINS------------------>
+
+
+
+
+
+<footer style="background-color:#1B1A17"> 
+  <div class="container-fluid footer-cols"> 
+      <div class="footer-col"> 
+          <p style="color: white; text-align: right;">Trung 2023</p> 
+          <!-- <p style="margin-top: 1rem; display: inline;"><a href="">Privacy Policy</a></p> 
+          <p style="display: inline;"><a href="">Cookie Policy</a></p>  -->
+      </div> 
+      <div class="footer-col tr"> 
+          <ul class="social-list" style="text-align: right;">
+            <!-- <a href="" aria-label="LinkedIn" target="_blank" rel="noopener"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier"> 
+                  <path d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z" fill="#ffffff"></path> 
+              </g>
+          </svg> </a>   -->
+          <a href="" aria-label="TokTok" target="_blank" rel="noopener"> <svg xmlns="https://www.w3.org/2000/svg" fill="#ffffff" width="24" height="24" viewBox="0 0 24 24"> 
+            <path fill="#fff" d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-5.394 10.692 6.33 6.33 0 0 0 10.857-4.424V8.687a8.182 8.182 0 0 0 4.773 1.526V6.79a4.831 4.831 0 0 1-1.003-.104z"></path> 
+        </svg> </a> 
+        <!-- <a href="" aria-label="Twitter" target="_blank" rel="noopener"> <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
+          <path fill="#fff" d="M24 4.6c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-2.7 0-4.9 2.2-4.9 4.9 0 .4 0 .8.1 1.1-4.2-.2-7.8-2.2-10.2-5.2-.5.8-.7 1.6-.7 2.5 0 1.7.9 3.2 2.2 4.1-.8 0-1.6-.2-2.2-.6v.1c0 2.4 1.7 4.4 3.9 4.8-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.6 3.4-1.7 1.3-3.8 2.1-6.1 2.1-.4 0-.8 0-1.2-.1 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14-7.5 14-14v-.6c1-.7 1.8-1.6 2.5-2.5z"></path> 
+      </svg> </a>                                                               -->
+          <a href="" aria-label="YouTube" target="_blank" rel="noopener"> <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
+            <path fill="#fff" d="M23.8 7.2s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1-3.4-.2-8.4-.2-8.4-.2s-5 0-8.4.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 9.1 0 11.1v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V11c0-1.9-.2-3.8-.2-3.8zM9.5 15.1V8.4l6.5 3.4-6.5 3.3z"></path> 
+        </svg> </a>                
+        <!-- <a href="" aria-label="Facebook" target="_blank" rel="noopener"> <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
+          <path fill="#fff" d="M9.032 23L9 13H5V9h4V6.5C9 2.789 11.298 1 14.61 1c1.585 0 2.948.118 3.345.17v3.88H15.66c-1.8 0-2.15.856-2.15 2.112V9h5.241l-2 4h-3.24v10H9.032z"></path> 
+      </svg> </a>                      -->
+      <a href="" aria-label="Instagram" target="_blank" rel="noopener"> <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
+        <g fill="#fff"> 
+            <path d="M12 2.162c3.204 0 3.584.012 4.849.07 1.366.062 2.633.336 3.608 1.311.975.975 1.249 2.242 1.311 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.336 2.633-1.311 3.608-.975.975-2.242 1.249-3.608 1.311-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.336-3.608-1.311-.975-.975-1.249-2.242-1.311-3.608-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.336-2.633 1.311-3.608.975-.975 2.242-1.249 3.608-1.311 1.265-.058 1.645-.07 4.849-.07M12 0C8.741 0 8.332.014 7.052.072c-1.95.089-3.663.567-5.038 1.942C.639 3.389.161 5.102.072 7.052.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.089 1.95.567 3.663 1.942 5.038 1.375 1.375 3.088 1.853 5.038 1.942C8.332 23.986 8.741 24 12 24s3.668-.014 4.948-.072c1.95-.089 3.663-.567 5.038-1.942 1.375-1.375 1.853-3.088 1.942-5.038.058-1.28.072-1.689.072-4.948s-.014-3.668-.072-4.948c-.089-1.95-.567-3.663-1.942-5.038C20.611.639 18.898.161 16.948.072 15.668.014 15.259 0 12 0z"></path> 
+            <path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8z"></path> 
+            <circle cx="18.406" cy="5.594" r="1.44"></circle> 
+        </g>                                         
+    </svg> </a>                          
+    <!-- <a href="" aria-label="RSS" target="_blank" rel="noopener" title="RSS"> <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"> 
+      <path fill="#fff" d="M6.503 20.752A3.25 3.25 0 013.252 24 3.25 3.25 0 010 20.752a3.25 3.25 0 013.252-3.248 3.25 3.25 0 013.251 3.248zM0 8.18v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817C15.777 15.29 8.721 8.242 0 8.18zm0-3.368C10.58 4.858 19.152 13.406 19.183 24H24C23.97 10.769 13.245.046 0 0v4.812z"></path> 
+  </svg> </a>                             -->
+          </ul>                         
+      </div>                     
+  </div> 
+
+</footer>
+  
+  </html>
+
+
